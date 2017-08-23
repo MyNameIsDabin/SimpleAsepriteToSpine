@@ -12,7 +12,7 @@ namespace SimpleAsepriteToSpine
     class AsepriteScanner
     {
         private string asepriteParentDire; //Aseprite.exe 파일 경로
-        private string aseFilePath; //스캔할 .ase 파일 경로 (이름을 제외한)
+        private string aseFilePath; //스캔할 .ase 파일 (이름을 제외한) 경로
         private string aseFileName; //스캔할 .ase 파일 이름
 
         public AsepriteScanner()
