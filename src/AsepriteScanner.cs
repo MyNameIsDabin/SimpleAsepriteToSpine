@@ -17,15 +17,6 @@ namespace SimpleAsepriteToSpine
 
         public AsepriteScanner()
         {
-            JObject jSpineObj = new JObject();
-            jSpineObj.Add("skins", new JObject(new JProperty("default", new JObject())));
-            string aa = jSpineObj.ToString();
-
-
-            JObject jo = (JObject)jSpineObj["skins"]["default"];
-            jo.Add("test", "dd");
-
-            Console.WriteLine(aa);
         }
 
         public bool FindAsepriteByDialog()
